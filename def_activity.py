@@ -2,7 +2,7 @@
 # You write it once and you can call it anytime with different values
 
 def buy_load(amount):
-    """Calculates discount for GCash Buy Load"""
+    """Calculates discount for Buy Load"""
     if amount >= 100:
         discount = amount * 0.10  # 10% discount
     elif amount >= 50:
